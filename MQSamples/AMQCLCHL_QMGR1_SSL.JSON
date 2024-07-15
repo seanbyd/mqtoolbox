@@ -1,0 +1,16 @@
+{
+	"channel": [{
+		"name": "TEST.SVRCONN.SSL",
+		"clientConnection": {
+			"connection": [{
+				"host": "localhost",
+				"port": 1414
+			}],
+			"queueManager": "QMGR1"
+		},
+		"transmissionSecurity": {
+			"cipherSpecification": "ECDHE_RSA_AES_256_GCM_SHA384",
+			},
+		"type": "clientConnection"
+	}]
+}
