@@ -125,7 +125,7 @@ public class TranslateSSLCipherSuite {
 		public String getValue() {
 			setCipherMappings();
 
-			if (System.getProperty("com.ibm.mq.cfg.useIBMCipherMappings") == "ibm")
+			if (System.getProperty("com.ibm.mq.cfg.useIBMCipherMappings") == "true")
 				return this.ibmValue;
 			else
 				return this.oracleValue;
